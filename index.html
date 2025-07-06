@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="con">
+      <h1>h1 HEADLINE</h1>
+      <h2>h2 SUBTITLE</h2>
+      <h3>h3 SUBTITLE</h3>
+      <h4>h4 SUBTITLE</h4>
+      <h5>h5 SUBTITLE</h5>
+      <p>P PARAGRAPH</p>
+      <small> SMALL TEXT </small>
+      <p class="text-scale">TEXT WITH CLASS</p>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      PreciseFontScaler.init({
+        baseScreen: {
+          desktopWidth: 1440,
+          desktopHeight: 900,
+          mobileWidth: 375,
+          density: 1,
+        },
+        scaleMultiplier: 1,
+        selectors: ["body", "h1", "h2", "h3", "h4", "h5", "p", "span"],
+      });
+    </script>
+  </body>
+</html>
