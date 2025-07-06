@@ -73,6 +73,13 @@ p {
   /* no font-size defined */
 }
 ```
+## 🎯 Smart Default: .text-scale Class
+PFS includes a built-in shortcut to make font scaling easier:
+you can simply use the class text-scale on any HTML element,
+and it will automatically be included in the scaling logic.
+
+No need to add it to the selectors array in JavaScript —
+it's always recognized by the library by default.
 
 ## Installation
 
