@@ -115,6 +115,6 @@ Remove clutter from your CSS and media queries.
 Focus on content and aesthetics, not device hacks.
 
 ## Git 
-[Library demo link...](https://github.com/Luayabbas1981/PFS-package)
+[Git Repo...](https://github.com/Luayabbas1981/PFS-package)
 ## 📄 License
 MIT — use freely, improve freely. Attribution is appreciated but not required.
