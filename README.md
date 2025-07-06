@@ -101,14 +101,14 @@ import PreciseFontScaler from 'pfs-auto-scale';
   });
 ```
 
-| Option            | Type      | Description                                                   |
-| ----------------- | --------- | ------------------------------------------------------------- |
-| `desktopWidth`    | number    | Width (in px) of the screen you originally designed on        |
-| `desktopHeight`   | number    | Height of your reference screen                               |
-| `mobileWidth`     | number    | Width used for mobile scaling (portrait mode)                 |
-| `density`         | number    | Your original screen’s pixel ratio (e.g. 1 or 2)              |
-| `scaleMultiplier` | number    | Optional: globally scale all font sizes (e.g. 0.95, 1.1, etc) |
-| `selectors`       | string\[] | List of CSS selectors for elements to scale                   |
+| Option            | Type      | Description                                                                                                                                    |
+| ----------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `desktopWidth`    | number    | Width (in px) of the screen you originally designed on                                                                                         |
+| `desktopHeight`   | number    | Height (in px) of your reference screen                                                                                                        |
+| `mobileWidth`     | number    | Width used for mobile scaling (portrait mode)                                                                                                  |
+| `density`         | number    | Your original screen’s pixel ratio (e.g. 1 or 2)                                                                                               |
+| `scaleMultiplier` | number    | Optional (default = `1`). Controls the intensity of scaling across all screens. Values below `1` reduce scaling effect, above `1` increase it. |
+| `selectors`       | string\[] | Array of CSS selectors targeting the elements you want to scale                                                                                |
 
 ## 📌 Notes
 
