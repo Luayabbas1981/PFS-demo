@@ -10,11 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/Luayabbas1981/PFS-demo.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Luayabbas1981/PFS-demo/issues"
-  },
-  "homepage": "https://github.com/Luayabbas1981/PFS-demo#readme"
+  ,
+  "keywords": [
+    "CSS",
+    "Fonts"
+  ],
+  "author": "luay abbas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luayabbas1981/PFS-demo"
+  }
 }
