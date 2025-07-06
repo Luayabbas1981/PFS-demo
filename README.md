@@ -1,7 +1,5 @@
 # 📦 PreciseFontScaler (FSS)
 
-> Instead of adapting your design to screens,  
-> **PFS adapts screens to your design.**
 
 ---
 
@@ -21,12 +19,8 @@ You may try:
 
 ## 💡 The Philosophy
 
-FSS is built around a simple idea:
-
-> _You design once, for one screen. Let the library scale all fonts on every screen._
-
-Whether your CSS uses `px`, `rem`, `%`, or even defaults —  
-**FSS reads the computed font-size and scales it proportionally** based on the actual screen dimensions and pixel density.
+> Instead of adapting your design to screens,  
+> **PFS adapts screens to your design.**
 
 ---
 
