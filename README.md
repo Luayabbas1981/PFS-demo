@@ -1,4 +1,4 @@
-# 📦 PreciseFontScaler (FSS)
+# 📦 PreciseFontScaler (PFS)
 
 
 ---
@@ -26,7 +26,7 @@ You may try:
 
 ## 🚀 What It Does
 
-FSS:
+PFS:
 - Detects the computed font size of any text element.
 - Scales it automatically for any screen using:
   - Desktop reference size (width + height),
@@ -92,19 +92,19 @@ p    { font-size: 1.1rem; }
 
 ## 📌 Notes
 
-- No need to use px. FSS works with any unit or browser default.
+- No need to use px. PFS works with any unit or browser default.
 
-- Don’t use clamp(), vw, or other JS-based scalers alongside FSS.
+- Don’t use clamp(), vw, or other JS-based scalers alongside PFS.
 
-- Avoid mixing multiple font scaling systems — FSS handles everything.
+- Avoid mixing multiple font scaling systems — PFS handles everything.
 
 - You don’t need to define font-size at all — defaults will still scale.
 
 
-## 🧠 Why FSS?
+## 🧠 Why PFS?
 Because you shouldn’t have to redesign typography for every screen.
 
-FSS helps you:
+PFS helps you:
 
 Design once, scale forever.
 
