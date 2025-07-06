@@ -1,6 +1,5 @@
 # 📦 PreciseFontScaler (PFS)
 
-
 ---
 
 ## 🐛 The Problem
@@ -8,6 +7,7 @@
 Font sizing across screen sizes and resolutions is consistently inconsistent.
 
 You may try:
+
 - `rem` or `em` — but they only scale relatively and inconsistently.
 - `clamp()` — can get messy with mixed font types or break on small screens.
 - `vw` / `vh` — distorts layout if overused.
@@ -27,6 +27,7 @@ You may try:
 ## 🚀 What It Does
 
 PFS:
+
 - Detects the computed font size of any text element.
 - Scales it automatically for any screen using:
   - Desktop reference size (width + height),
@@ -40,14 +41,14 @@ You don’t need media queries or manual recalculations.
 
 ## ✅ Key Features
 
-| Feature                  | Description                                                               |
-|--------------------------|---------------------------------------------------------------------------|
-| 🔍 Computed size reading | Works with `px`, `rem`, `%`, or even inherited/default styles             |
-| 📱 Mobile smartness      | Uses only screen width in portrait (phone) mode                           |
-| 💻 Desktop logic         | Uses width + height + device pixel ratio for large screens                |
-| 🎛️ Tweakable scaling     | Global `scaleMultiplier` to fine-tune scaling sensitivity                 |
-| 🧠 Pure JavaScript       | Lightweight, no dependencies                                              |
-| 🖋️ Unit-agnostic         | No restrictions on your CSS units or coding style                         |
+| Feature                  | Description                                                   |
+| ------------------------ | ------------------------------------------------------------- |
+| 🔍 Computed size reading | Works with `px`, `rem`, `%`, or even inherited/default styles |
+| 📱 Mobile smartness      | Uses only screen width in portrait (phone) mode               |
+| 💻 Desktop logic         | Uses width + height + device pixel ratio for large screens    |
+| 🎛️ Tweakable scaling     | Global `scaleMultiplier` to fine-tune scaling sensitivity     |
+| 🧠 Pure JavaScript       | Lightweight, no dependencies                                  |
+| 🖋️ Unit-agnostic         | No restrictions on your CSS units or coding style             |
 
 ---
 
@@ -58,14 +59,34 @@ You don’t need media queries or manual recalculations.
 No special CSS rules needed. Use any unit, or none at all:
 
 ```css
-body { font-family: sans-serif; }
-h1   { font-size: 3rem; }
-p    { font-size: 1.1rem; }
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.1rem;
+}
 /* Even this will work: */
-.note { /* no font-size defined */ }
+.note {
+  /* no font-size defined */
+}
+```
+
+## Installation
 
 ```
+npm install pfs-auto-scale
+
+```
+
 ## Usage
+
+```
+import PreciseFontScaler from 'pfs-auto-scale';
+
+```
 
 ```
  PreciseFontScaler.init({
@@ -89,7 +110,6 @@ p    { font-size: 1.1rem; }
 | `scaleMultiplier` | number    | Optional: globally scale all font sizes (e.g. 0.95, 1.1, etc) |
 | `selectors`       | string\[] | List of CSS selectors for elements to scale                   |
 
-
 ## 📌 Notes
 
 - No need to use px. PFS works with any unit or browser default.
@@ -100,8 +120,8 @@ p    { font-size: 1.1rem; }
 
 - You don’t need to define font-size at all — defaults will still scale.
 
-
 ## 🧠 Why PFS?
+
 Because you shouldn’t have to redesign typography for every screen.
 
 PFS helps you:
@@ -114,7 +134,10 @@ Remove clutter from your CSS and media queries.
 
 Focus on content and aesthetics, not device hacks.
 
-## Git 
-[Git Repo...](https://github.com/Luayabbas1981/PFS-package)
+## NPM
+
+[npm ...](https://www.npmjs.com/package/pfs-auto-scale)
+
 ## 📄 License
+
 MIT — use freely, improve freely. Attribution is appreciated but not required.
