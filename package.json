@@ -1,14 +1,27 @@
 {
   "name": "pfs-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Smart, automatic font size scaling for responsive web design.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "CSS",
-    "Fonts"
+    "font-size",
+    "responsive",
+    "typography",
+    "font-scaling",
+    "css",
+    "design",
+    "screen-adaptive",
+    "text-scaling",
+    "ui",
+    "scaling",
+    "accessibility",
+    "frontend",
+    "web-design",
+    "precise-font-scaler",
+    "adaptive-fonts"
   ],
   "author": "luay abbas",
   "license": "MIT",
