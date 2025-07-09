@@ -1,4 +1,4 @@
-# 📦 PreciseFontScaler (PFS)
+# 📦 FontFlex (FF)
 
 ---
 
@@ -20,13 +20,13 @@ You may try:
 ## 💡 The Philosophy
 
 > Instead of adapting your design to screens,  
-> **PFS adapts screens to your design.**
+> **FF adapts screens to your design.**
 
 ---
 
 ## 🚀 What It Does
 
-PFS:
+FF:
 
 - Detects the computed font size of any text element.
 - Scales it automatically for any screen using:
@@ -74,7 +74,7 @@ p {
 }
 ```
 ## 🎯 Smart Default: .text-scale Class
-PFS includes a built-in shortcut to make font scaling easier:
+FF includes a built-in shortcut to make font scaling easier:
 you can simply use the class text-scale on any HTML element,
 and it will automatically be included in the scaling logic.
 
@@ -84,14 +84,14 @@ it's always recognized by the library by default.
 ## Installation
 
 ```
-npm install pfs-auto-scale
+npm install font-flex
 
 ```
 
 ## Usage
 
 ```
-import PreciseFontScaler from 'pfs-auto-scale';
+import PreciseFontScaler from 'font-flex';
 
 ```
 
@@ -104,7 +104,7 @@ import PreciseFontScaler from 'pfs-auto-scale';
       density: 1            // Device pixel ratio used when you designed
     },
     scaleMultiplier: 1,      // Optional (default is 1)
-    selectors: ["body", "h1", "p", ".text-scale"]  // Elements you want to scale
+    selectors: ["body", "h1", "p", "text-scale"]  // Elements you want to scale
   });
 ```
 
@@ -115,23 +115,24 @@ import PreciseFontScaler from 'pfs-auto-scale';
 | `mobileWidth`     | number    | Width used for mobile scaling (portrait mode)                                                                                                  |
 | `density`         | number    | Your original screen’s pixel ratio (e.g. 1 or 2)                                                                                               |
 | `scaleMultiplier` | number    | Optional (default = `1`). Controls the intensity of scaling across all screens. Values below `1` reduce scaling effect, above `1` increase it. |
-| `selectors`       | string\[] | Array of CSS selectors targeting the elements you want to scale                                                                                |                                                                               |
+| `selectors`       | string\[] | Array of CSS selectors targeting the elements you want to scale                                                                                |
+
 
 ## 📌 Notes
 
-- No need to use px. PFS works with any unit or browser default.
+- No need to use px. FF works with any unit or browser default.
 
-- Don’t use clamp(), vw, or other JS-based scalers alongside PFS.
+- Don’t use clamp(), vw, or other JS-based scalers alongside FF.
 
-- Avoid mixing multiple font scaling systems — PFS handles everything.
+- Avoid mixing multiple font scaling systems — FF handles everything.
 
 - You don’t need to define font-size at all — defaults will still scale.
 
-## 🧠 Why PFS?
+## 🧠 Why FF?
 
 Because you shouldn’t have to redesign typography for every screen.
 
-PFS helps you:
+FF helps you:
 
 Design once, scale forever.
 
@@ -143,7 +144,7 @@ Focus on content and aesthetics, not device hacks.
 
 ## NPM
 
-[npm ...](https://www.npmjs.com/package/pfs-auto-scale)
+[npm ...](https://www.npmjs.com/package/font-flex)
 
 ## 📄 License
 
