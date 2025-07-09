@@ -104,7 +104,7 @@ import PreciseFontScaler from 'font-flex';
       density: 1            // Device pixel ratio used when you designed
     },
     scaleMultiplier: 1,      // Optional (default is 1)
-    selectors: ["body", "h1", "p", "text-scale"]  // Elements you want to scale
+    selectors: ["body", "h1", "p", ".text-scale"]  // Elements you want to scale
   });
 ```
 
